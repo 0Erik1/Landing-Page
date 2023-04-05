@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68deg, #323e5a, #020d2c)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-img{
+    height: 72px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #d5e0ff;
+}.cabecalho-menu-item:hover{
+    color: #8c94aa;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #d5e0ff
+}.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}.conteudo-principal-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}.conteudo-principal-texto-h1{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 400;
+    font-size: 64px;
+    color: #d5e0ff;
+}.conteudo-principal-texto-h2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size :24px;
+    color: #d5e0ff;
+}.conteudo-principal-texto-bt{
+    background-color: #d5e0ff;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #020d2c;
+}.conteudo-principal-texto-bt:hover{
+    background-color: #8c94aa;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}.conteudo-secundario-h3{
+    border-top: 0.4px solid #d5e0ff;
+    padding-top: 48px;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    color: #d5e0ff;
+    margin-bottom: 16px;
+}.conteudo-secundario-p{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #d5e0ff;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #d5e0ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #d5e0ff;
+}
